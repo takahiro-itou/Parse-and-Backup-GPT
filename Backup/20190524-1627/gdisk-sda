@@ -1,0 +1,29 @@
+GPT fdisk (gdisk) version 1.0.3
+
+Partition table scan:
+  MBR: protective
+  BSD: not present
+  APM: not present
+  GPT: present
+
+Found valid GPT with protective MBR; using GPT.
+Disk /dev/sda: 937703088 sectors, 447.1 GiB
+Model: TOSHIBA THNSN948
+Sector size (logical/physical): 512/512 bytes
+Disk identifier (GUID): 95CC30F8-1D65-4182-B11F-991FD7CA1B95
+Partition table holds up to 128 entries
+Main partition table begins at sector 2 and ends at sector 33
+First usable sector is 34, last usable sector is 937703054
+Partitions will be aligned on 8-sector boundaries
+Total free space is 126711405 sectors (60.4 GiB)
+
+Number  Start (sector)    End (sector)  Size       Code  Name
+   1              34          262177   128.0 MiB   0C01  Microsoft reserved ...
+   2          264192         8652799   4.0 GiB     0700  LINUXBOOT
+   3         9062400       260720639   120.0 GiB   0700  WINDOWS10
+   4       260720640       428492799   80.0 GiB    0700  PROGRAMS
+   5       428492800       680151039   120.0 GiB   0700  NOINST
+   6       680151040       805980159   60.0 GiB    0700  LINUXROOT
+   7       805980160       810176511   2.0 GiB     0700  RECOVERY
+   8       810176512       811198463   499.0 MiB   2700  Basic data partition
+   9       811198464       811403263   100.0 MiB   EF00  EFI system partition

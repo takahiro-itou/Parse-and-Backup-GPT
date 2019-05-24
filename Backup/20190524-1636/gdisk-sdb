@@ -1,0 +1,40 @@
+GPT fdisk (gdisk) version 1.0.3
+
+Partition table scan:
+  MBR: protective
+  BSD: not present
+  APM: not present
+  GPT: present
+
+Found valid GPT with protective MBR; using GPT.
+Disk /dev/sdb: 7814037168 sectors, 3.6 TiB
+Model: WDC WD40EZRZ-00G
+Sector size (logical/physical): 512/4096 bytes
+Disk identifier (GUID): 398AF440-F9FB-03A9-10BD-62CE7E7EEA00
+Partition table holds up to 128 entries
+Main partition table begins at sector 2 and ends at sector 33
+First usable sector is 34, last usable sector is 7814037134
+Partitions will be aligned on 8-sector boundaries
+Total free space is 454463212 sectors (216.7 GiB)
+
+Number  Start (sector)    End (sector)  Size       Code  Name
+   1              34          262177   128.0 MiB   0C01  Microsoft reserved ...
+   2          264192         4458495   2.0 GiB     0700  BACKUP LINUX BOOT
+   3         4458496         8857599   2.1 GiB     0700  Reserved BIOS Boot
+   4         8857600        75966463   32.0 GiB    0700  USERS
+   5        75966464       243738623   80.0 GiB    0700  RAMBK
+   6       243738624       369567743   60.0 GiB    0700  PAGEFILE
+   7       369567744       906438655   256.0 GiB   0700  DATA1
+   8       906438656      4052166655   1.5 TiB     0700  DATA2
+   9      4052166656      4589037567   256.0 GiB   0700  MOZILLA
+  10      4589037568      5637613567   500.0 GiB   0700  INSTALLER
+  11      5637613568      6174484479   256.0 GiB   0700  LINUX HOME
+  12      6174484480      6176581631   1024.0 MiB  0700  LINUX SWAP
+  13      6176581632      6184970239   4.0 GiB     0700  LINUX TEMP
+  14      6184970240      6185175039   100.0 MiB   0700  BACKUP EFI
+  15      6185175040      6436833279   120.0 GiB   0700  BACKUP NOINSTALL
+  16      6436833280      6562662399   60.0 GiB    0700  BACKUP LINUX ROOT
+  17      6562662400      6814320639   120.0 GiB   0700  BACKUP WINDOWS
+  18      7268775936      7478489087   100.0 GiB   0700  OLD MOZILLA
+  19      7478489088      7604316032   60.0 GiB    0700  OLD RAMBK
+  20      7604318208      7814033407   100.0 GiB   0700  OLD LINUX HOME
